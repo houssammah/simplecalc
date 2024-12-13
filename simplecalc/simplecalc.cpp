@@ -3,7 +3,7 @@
 
 int main() {
     Calculator calc;
-    double num1, num2;
+    int num1, num2;
     char operation;
 
     std::cout << "Simple Calculator\n";
@@ -14,7 +14,7 @@ int main() {
     std::cin >> num1 >> num2;
 
     try {
-        double result;
+        int result;
         switch (operation) {
         case '+':
             result = calc.add(num1, num2);
