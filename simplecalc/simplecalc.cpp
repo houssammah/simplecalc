@@ -22,12 +22,12 @@ int main() {
         case '-':
             result = calc.subtract(num1, num2);
             break;
-        case '*':
+       /* case '*':
             result = calc.multiply(num1, num2);
             break;
         case '/':
             result = calc.divide(num1, num2);
-            break;
+            break;*/
         default:
             std::cerr << "Invalid operation.\n";
             return 1;
