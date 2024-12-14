@@ -6,7 +6,8 @@ int main() {
     int num1, num2;
     char operation;
 
-    std::cout << "Simple houssam\n";
+    std::cout << "Simple hoho\n";
+    //coment
     std::cout << "Enter an operation (+, -, *, /): ";
     std::cin >> operation;
 
